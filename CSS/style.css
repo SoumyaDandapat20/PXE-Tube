@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap');
+
+:root{
+   --blue: #1e175a;
+   --red:#8b0808;
+   --white:#fff;
+   --black:#000000;
+   --light-color:#aabffb;
+   --lightbg: #a4b6e9c4;
+   --gold:#ebb222;
+   --border:.2rem solid var(--black);
+}
+
+*{
+   font-family: 'Roboto Slab', serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: .2s linear;
+}
+
+*::selection{
+   background-color: var(--blue);
+   color:var(--white);
+}
+
+html{
+   font-size: 70%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar{
+   height: .5rem;
+   width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: var(--blue);
+   border-radius: 5rem;
+}
+
+section{
+   margin-left: 1%;
+   margin-right: 1%;
+   padding:0;
+}
+
+.flex .navbar{
+    display: flex;
+    width: 100%;
+}
+
+.flex .logo img{
+    height: 50px;
+    width: 150px;
+}
