@@ -1,2 +1,2 @@
 # PXE-Tube
-Internship Project
+This project can be run using XAMPP and phpmyadmin
